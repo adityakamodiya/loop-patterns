@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <p></p>
+    <h1>i can be change.</h1>
+    <button>
+        on click
+    </button>     -->
+
+<script>
+//     let temp =    document.querySelector('p').innerHTML = 'javascript';
+//    let temp1 = document.querySelector('h1').innerHTML = temp
+//     document.querySelector('.p2').innerHTML = temp1
+// let a=4
+// if(a>5&&a<15){
+// document.write("sehvaag");
+// }
+// else if(a==15&&a<50){
+//     document.write("dravid")
+// }
+// else if(a>=50&&a<100){
+//     document.write("kholi")
+// }
+// else{
+//     document.write("sachin")
+// }
+// if(a===1)
+// {
+//     document.write('monday')
+// }
+// else if(a===2){
+//     document.write('tuesday')
+// }
+// else if(a===3){
+// document.write('wednesday')
+// }
+// else if(a===4){
+//     document.write('thursday')
+// }
+// else{
+//     document.write('error')
+
+
+
+    // WHILE LOOP .......WHILE LOOP
+// let a=10
+// while(a>0){
+//         if(a===5){
+//         document.write()
+//         } 
+//         else{   
+//       document.write(a+'</br>')
+//         }
+//       a--
+
+//     }
+
+// NESTED FOR LOOP .....NESTED FOR LOOP...
+// let row ,column
+for(let row=0;row<5;row++){
+    for( let column=0;column<=row;column++){
+        document.write("*")
+    }
+    document.write('</br>')
+}
+document.write("<br/>")
+
+for(let row=5;row>=1;row--){
+    for( let column=row;column<=row&&column>=1;column--){
+        document.write("*")
+    }
+    document.write('</br>')
+}
+document.write("<br/>")
+
+
+for(let a=1;a<=5;a++){
+    for(let b=1;b<=a;b++){
+        document.write(b)
+    }
+    document.write("</br>")
+}
+
+document.write("<br/>")
+for(let a=5;a>=1;a--){
+    for(let b=a;b<=5&&b>=1;b--){
+        document.write(b)
+    }
+    document.write("</br>")
+}
+document.write("<br/>")
+
+for(let a=1;a<=5;a++){
+    for(let b=5;b>=a && b>=1 ;b--)
+    {
+        document.write(b)
+    }
+    document.write('</br>')
+}
+document.write('</br>')
+for(let a=10;a>=1;a--){
+    for(let b=10;b<=a && b>=6;b--){
+        // if(b<=10&&b>=6)
+        {
+        document.write(b)}
+        // else{
+        //     document.write(b)
+        // }
+    }
+    document.write('</br>')
+}
+document.write('<Br>')
+    let limit=1
+    for(let i=1;i<=5;i++)
+    {
+        for(let b=i;b>=1;b-- )
+        {
+            document.write(limit++)
+        }
+        document.write('<br>')
+    }
+    document.write('<br>')
+    for(let a=0;a<=4;a++)
+    {
+        for(let b=0;b<=a;b++){
+            if(b%2==0){
+            document.write('@')}
+            else{
+                document.write('#')
+            }
+        }
+        document.write('<br>')
+    }
+
+    /*
+    FUNCTIONS 
+    */
+   function multiply(a, b)
+   {
+    return a*b;
+   }
+   function add(c,d){
+    return c+d;
+   }
+   console.log( "the mltiply is " +multiply(2,4));
+   console.log("addition is "+add(2,4));
+    </script>
+</body>
+</html>
